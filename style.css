@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+
+    background-color: #8CDB94;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 2%;
+    color:#EDF5E0;
+    font-size: 48px;
+    padding: 2%;
+}
+
+.nav-menu{
+    padding: 2%;
+    margin-right:5%;
+}
+.item{
+    display: inline;
+}
+.a-item{
+
+    outline: none;
+    border-radius: 34px;
+    font-size: 24px;
+    color:#EDF5E0;
+    border:none;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: 0.6s;
+
+}
+.a-item:hover{
+    outline: none;
+    margin: 12px 12px;
+    border-radius: 34px;
+    color:#8DE4AF ;
+    border: 3px solid #389583;
+    background-color: #EDF5E0;
+}
+.nav-info, .nav-button{
+
+    background-color: #8DE4AF;
+    display: flex;
+    justify-content: center;
+}
+.nav-info{
+    color: #389583;
+    font-size: 36px;
+    padding: 3%;
+}
+.nav-button{
+    padding: 1%;
+}
+.button-info{
+    border:none;
+    font-size: 36px;
+    border-radius: 34px;
+    padding: 10px 15px;
+    color: #EDF5E0;
+    background-color: #8DE4AF ;
+    transition: 0.6s;
+}
+.button-info:hover{
+
+    cursor: pointer;
+    outline: none;
+    margin: 12px 12px;
+    border-radius: 34px;
+    color:#8DE4AF;
+    border: 4px solid #57867a;
+    background-color: #EDF5E0;
+
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-item{
+    padding: 2%;
+    width: 600px;
+    height: 500px;
+}
+.pre_footer{
+    background-color: #b7a1a1;
+    display: flex;
+    justify-content: center;
+}
+.pre_footer-content{
+    padding: 2%;
+    color: #545353;
+    font-size: 24px;
+    font-weight: 700;
+}
+footer{
+    padding: 1%;
+    background-color: #5CDB94;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    padding: 1%;
+}
+.footer-text{
+    font-size: 34px;
+    color:#EDF5E0;
+}
+
+.parallax {
+    /* The image used */
+background-image: url("123123234.png");
+z-index: 1;
+/* Set a specific height */
+min-height: 600px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
